@@ -10,7 +10,9 @@ namespace BinarySearchTree
     {
         static void Main(string[] args)
         {
-
+            List<int> list = new List<int>() { 10, 11, 12, 13, 14, 15, 17, 20, 25 };
+            BinarySearch tree = new BinarySearch(list);
+            
         }
     }
 }
